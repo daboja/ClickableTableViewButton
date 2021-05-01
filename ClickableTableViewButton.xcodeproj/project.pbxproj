@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6514E352632A10E001CED13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6514E342632A10E001CED13 /* AppDelegate.swift */; };
+		D6514E372632A10E001CED13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6514E362632A10E001CED13 /* SceneDelegate.swift */; };
+		D6514E392632A10E001CED13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6514E382632A10E001CED13 /* ViewController.swift */; };
+		D6514E3C2632A10E001CED13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6514E3A2632A10E001CED13 /* Main.storyboard */; };
+		D6514E3E2632A110001CED13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6514E3D2632A110001CED13 /* Assets.xcassets */; };
+		D6514E412632A110001CED13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6514E3F2632A110001CED13 /* LaunchScreen.storyboard */; };
+		D6514E4C2632A110001CED13 /* ClickableTableViewButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6514E4B2632A110001CED13 /* ClickableTableViewButtonTests.swift */; };
+		D6514E572632A111001CED13 /* ClickableTableViewButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6514E562632A111001CED13 /* ClickableTableViewButtonUITests.swift */; };
+		D6514E692632A8BC001CED13 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6514E672632A8BC001CED13 /* MyTableViewCell.swift */; };
+		D6514E6A2632A8BC001CED13 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6514E682632A8BC001CED13 /* MyTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6514E482632A110001CED13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6514E292632A10E001CED13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6514E302632A10E001CED13;
+			remoteInfo = ClickableTableViewButton;
+		};
+		D6514E532632A111001CED13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6514E292632A10E001CED13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6514E302632A10E001CED13;
+			remoteInfo = ClickableTableViewButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6514E312632A10E001CED13 /* ClickableTableViewButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickableTableViewButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6514E342632A10E001CED13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6514E362632A10E001CED13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D6514E382632A10E001CED13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6514E3B2632A10E001CED13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6514E3D2632A110001CED13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6514E402632A110001CED13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6514E422632A110001CED13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6514E472632A110001CED13 /* ClickableTableViewButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickableTableViewButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6514E4B2632A110001CED13 /* ClickableTableViewButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableTableViewButtonTests.swift; sourceTree = "<group>"; };
+		D6514E4D2632A111001CED13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6514E522632A111001CED13 /* ClickableTableViewButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickableTableViewButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6514E562632A111001CED13 /* ClickableTableViewButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableTableViewButtonUITests.swift; sourceTree = "<group>"; };
+		D6514E582632A111001CED13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6514E672632A8BC001CED13 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		D6514E682632A8BC001CED13 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6514E2E2632A10E001CED13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6514E442632A110001CED13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6514E4F2632A111001CED13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6514E282632A10E001CED13 = {
+			isa = PBXGroup;
+			children = (
+				D6514E332632A10E001CED13 /* ClickableTableViewButton */,
+				D6514E4A2632A110001CED13 /* ClickableTableViewButtonTests */,
+				D6514E552632A111001CED13 /* ClickableTableViewButtonUITests */,
+				D6514E322632A10E001CED13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6514E322632A10E001CED13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6514E312632A10E001CED13 /* ClickableTableViewButton.app */,
+				D6514E472632A110001CED13 /* ClickableTableViewButtonTests.xctest */,
+				D6514E522632A111001CED13 /* ClickableTableViewButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6514E332632A10E001CED13 /* ClickableTableViewButton */ = {
+			isa = PBXGroup;
+			children = (
+				D6514E342632A10E001CED13 /* AppDelegate.swift */,
+				D6514E362632A10E001CED13 /* SceneDelegate.swift */,
+				D6514E382632A10E001CED13 /* ViewController.swift */,
+				D6514E3A2632A10E001CED13 /* Main.storyboard */,
+				D6514E3D2632A110001CED13 /* Assets.xcassets */,
+				D6514E3F2632A110001CED13 /* LaunchScreen.storyboard */,
+				D6514E422632A110001CED13 /* Info.plist */,
+				D6514E672632A8BC001CED13 /* MyTableViewCell.swift */,
+				D6514E682632A8BC001CED13 /* MyTableViewCell.xib */,
+			);
+			path = ClickableTableViewButton;
+			sourceTree = "<group>";
+		};
+		D6514E4A2632A110001CED13 /* ClickableTableViewButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6514E4B2632A110001CED13 /* ClickableTableViewButtonTests.swift */,
+				D6514E4D2632A111001CED13 /* Info.plist */,
+			);
+			path = ClickableTableViewButtonTests;
+			sourceTree = "<group>";
+		};
+		D6514E552632A111001CED13 /* ClickableTableViewButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6514E562632A111001CED13 /* ClickableTableViewButtonUITests.swift */,
+				D6514E582632A111001CED13 /* Info.plist */,
+			);
+			path = ClickableTableViewButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6514E302632A10E001CED13 /* ClickableTableViewButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6514E5B2632A111001CED13 /* Build configuration list for PBXNativeTarget "ClickableTableViewButton" */;
+			buildPhases = (
+				D6514E2D2632A10E001CED13 /* Sources */,
+				D6514E2E2632A10E001CED13 /* Frameworks */,
+				D6514E2F2632A10E001CED13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickableTableViewButton;
+			productName = ClickableTableViewButton;
+			productReference = D6514E312632A10E001CED13 /* ClickableTableViewButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6514E462632A110001CED13 /* ClickableTableViewButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6514E5E2632A111001CED13 /* Build configuration list for PBXNativeTarget "ClickableTableViewButtonTests" */;
+			buildPhases = (
+				D6514E432632A110001CED13 /* Sources */,
+				D6514E442632A110001CED13 /* Frameworks */,
+				D6514E452632A110001CED13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6514E492632A110001CED13 /* PBXTargetDependency */,
+			);
+			name = ClickableTableViewButtonTests;
+			productName = ClickableTableViewButtonTests;
+			productReference = D6514E472632A110001CED13 /* ClickableTableViewButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6514E512632A111001CED13 /* ClickableTableViewButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6514E612632A111001CED13 /* Build configuration list for PBXNativeTarget "ClickableTableViewButtonUITests" */;
+			buildPhases = (
+				D6514E4E2632A111001CED13 /* Sources */,
+				D6514E4F2632A111001CED13 /* Frameworks */,
+				D6514E502632A111001CED13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6514E542632A111001CED13 /* PBXTargetDependency */,
+			);
+			name = ClickableTableViewButtonUITests;
+			productName = ClickableTableViewButtonUITests;
+			productReference = D6514E522632A111001CED13 /* ClickableTableViewButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6514E292632A10E001CED13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D6514E302632A10E001CED13 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D6514E462632A110001CED13 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D6514E302632A10E001CED13;
+					};
+					D6514E512632A111001CED13 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D6514E302632A10E001CED13;
+					};
+				};
+			};
+			buildConfigurationList = D6514E2C2632A10E001CED13 /* Build configuration list for PBXProject "ClickableTableViewButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6514E282632A10E001CED13;
+			productRefGroup = D6514E322632A10E001CED13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6514E302632A10E001CED13 /* ClickableTableViewButton */,
+				D6514E462632A110001CED13 /* ClickableTableViewButtonTests */,
+				D6514E512632A111001CED13 /* ClickableTableViewButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6514E2F2632A10E001CED13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6514E412632A110001CED13 /* LaunchScreen.storyboard in Resources */,
+				D6514E6A2632A8BC001CED13 /* MyTableViewCell.xib in Resources */,
+				D6514E3E2632A110001CED13 /* Assets.xcassets in Resources */,
+				D6514E3C2632A10E001CED13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6514E452632A110001CED13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6514E502632A111001CED13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6514E2D2632A10E001CED13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6514E392632A10E001CED13 /* ViewController.swift in Sources */,
+				D6514E692632A8BC001CED13 /* MyTableViewCell.swift in Sources */,
+				D6514E352632A10E001CED13 /* AppDelegate.swift in Sources */,
+				D6514E372632A10E001CED13 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6514E432632A110001CED13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6514E4C2632A110001CED13 /* ClickableTableViewButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6514E4E2632A111001CED13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6514E572632A111001CED13 /* ClickableTableViewButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6514E492632A110001CED13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6514E302632A10E001CED13 /* ClickableTableViewButton */;
+			targetProxy = D6514E482632A110001CED13 /* PBXContainerItemProxy */;
+		};
+		D6514E542632A111001CED13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6514E302632A10E001CED13 /* ClickableTableViewButton */;
+			targetProxy = D6514E532632A111001CED13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6514E3A2632A10E001CED13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6514E3B2632A10E001CED13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6514E3F2632A110001CED13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6514E402632A110001CED13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6514E592632A111001CED13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6514E5A2632A111001CED13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6514E5C2632A111001CED13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RU6R4HYX5;
+				INFOPLIST_FILE = ClickableTableViewButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.ClickableTableViewButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6514E5D2632A111001CED13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RU6R4HYX5;
+				INFOPLIST_FILE = ClickableTableViewButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.ClickableTableViewButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6514E5F2632A111001CED13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RU6R4HYX5;
+				INFOPLIST_FILE = ClickableTableViewButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.ClickableTableViewButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickableTableViewButton.app/ClickableTableViewButton";
+			};
+			name = Debug;
+		};
+		D6514E602632A111001CED13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RU6R4HYX5;
+				INFOPLIST_FILE = ClickableTableViewButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.ClickableTableViewButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickableTableViewButton.app/ClickableTableViewButton";
+			};
+			name = Release;
+		};
+		D6514E622632A111001CED13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RU6R4HYX5;
+				INFOPLIST_FILE = ClickableTableViewButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.ClickableTableViewButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickableTableViewButton;
+			};
+			name = Debug;
+		};
+		D6514E632632A111001CED13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RU6R4HYX5;
+				INFOPLIST_FILE = ClickableTableViewButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.ClickableTableViewButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickableTableViewButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6514E2C2632A10E001CED13 /* Build configuration list for PBXProject "ClickableTableViewButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6514E592632A111001CED13 /* Debug */,
+				D6514E5A2632A111001CED13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6514E5B2632A111001CED13 /* Build configuration list for PBXNativeTarget "ClickableTableViewButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6514E5C2632A111001CED13 /* Debug */,
+				D6514E5D2632A111001CED13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6514E5E2632A111001CED13 /* Build configuration list for PBXNativeTarget "ClickableTableViewButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6514E5F2632A111001CED13 /* Debug */,
+				D6514E602632A111001CED13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6514E612632A111001CED13 /* Build configuration list for PBXNativeTarget "ClickableTableViewButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6514E622632A111001CED13 /* Debug */,
+				D6514E632632A111001CED13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6514E292632A10E001CED13 /* Project object */;
+}
